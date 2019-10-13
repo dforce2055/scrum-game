@@ -34,4 +34,7 @@ Ya estas listo para ejecutar la aplicación
 ## Esquema de la aplicación
 1. Heroku server (Deploy Nodejs + Express App) [URL](https://scrum-game.herokuapp.com/)
 2. BBDD MongoDB No SQL in [Atlas Server](https://cloud.mongodb.com/)
-2. BBDD MySQL ClearDB [ClearDB for Heroku server](https://www.cleardb.com)
+3. BBDD MySQL ClearDB [ClearDB for Heroku server](https://www.cleardb.com)
+
+### Documentación de la API
+Descargar JSON e importar en POSTMAN [JSON API](https://www.getpostman.com/collections/cb19186b8c7fb2f75d11)
