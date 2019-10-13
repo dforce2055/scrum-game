@@ -42,6 +42,3 @@ mongoose.connect(process.env.MONGO_URL,
 app.listen(process.env.PORT, () => {
     console.log(`Escuchando Puerto: ${process.env.PORT}`.green);
 });
-
-
-
