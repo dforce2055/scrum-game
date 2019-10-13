@@ -3,10 +3,6 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-// Conexión a mysql
-//const mysqlConnection = require('./config/mysql-db');
-
-
 // path para carpeta public
 const path = require('path');
 
@@ -42,11 +38,6 @@ mongoose.connect(process.env.MONGO_URL,
         if ( error ) throw error.red;
         else console.log('Conectado a Mongo'.green);
     });
-
-// Conexión a mysql
-//mysqlConnection.pruebaConexion();
-//mysqlConnection.exportarCSV();
-   
 
 app.listen(process.env.PORT, () => {
     console.log(`Escuchando Puerto: ${process.env.PORT}`.green);
