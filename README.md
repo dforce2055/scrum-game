@@ -29,3 +29,9 @@ Dentro de la carpeta del repositorio recientemente clonado ejecutar desde la con
 ### Paso-3
 Ya estas listo para ejecutar la aplicación
 ```nodemon app.js``` o ```node app.js```
+
+
+## Esquema de la aplicación
+1. Heroku server (Deploy Nodejs + Express App) [URL](https://scrum-game.herokuapp.com/)
+2. BBDD MongoDB No SQL in [Atlas Server](https://cloud.mongodb.com/)
+2. BBDD MySQL ClearDB [ClearDB for Heroku server](https://www.cleardb.com)
