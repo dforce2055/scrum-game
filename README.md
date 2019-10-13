@@ -28,7 +28,7 @@ Dentro de la carpeta del repositorio recientemente clonado ejecutar desde la con
 
 ### Paso-3
 Ya estas listo para ejecutar la aplicación
-```nodemon app.js``` o ```node app.js```
+#### ```nodemon app.js``` o ```node app.js```
 
 
 ## Esquema de la aplicación
