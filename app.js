@@ -4,7 +4,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 // Conexión a mysql
-const mysqlConnection = require('./config/mysql-db');
+//const mysqlConnection = require('./config/mysql-db');
 
 
 // path para carpeta public

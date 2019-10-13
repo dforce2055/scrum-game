@@ -4,7 +4,7 @@ const path = require('path');
 const generatePassword = require('password-generator');
 // Conexión a mysql
 let mysql = require('mysql');
-//const mysqlConnection = require('../config/mysql-db');
+
 // Conexión a mysql compatible con HEROKU
 let mysqlConnection = mysql.createConnection(process.env.MYSQL_URL);
 
